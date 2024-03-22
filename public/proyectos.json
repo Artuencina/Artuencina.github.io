@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Chat App",
+        "description": "Mensajeria instantánea offline y online, con autenticación de usuarios por Email y Google.",
+        "githubLink": "https://github.com/Artuencina/chat_app",
+        "image": "https://github.com/Artuencina/chat_app/raw/main/screenshots/S1.png",
+        "tags": ["Flutter", "Firebase", "Dart"]
+    },
+    {
+        "title": "Directors Cut",
+        "description": "Aplicación para la gestión de escenas de obras teatrales, con música, efectos e iluminación",
+        "githubLink": "https://github.com/Artuencina/directors_cut",
+        "image": "https://www.prensalibre.com/wp-content/uploads/2020/03/teatro.jpg?quality=52",
+        "tags": ["Flutter", "Dart"]
+    },
+    {
+        "title": "OnlyFlans",
+        "description": "Red social para compartir y admirar flanes. Con opciones como likes, comentarios, follows y subida de multimedia",
+        "githubLink": "",
+        "image": "https://www.lactaidenespanol.com/sites/lactaid_us/files/recipe-images/easy_flan2_0.jpg",
+        "tags": ["Flutter", "Dart", "Firebase"]
+    },
+    {
+        "title": "Covid-19",
+        "description": "Aplicación para la visualización de datos de la pandemia de Covid-19 en el mundo",
+        "githubLink": "",
+        "image": "https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/graph-wiki_ver_1.png",
+        "tags": ["Flutter", "Dart"]
+    }
+]
