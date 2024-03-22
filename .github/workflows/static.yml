@@ -37,7 +37,7 @@ jobs:
           node-version: 21
           cache: 'npm'
       - name: Install dependencies
-        run: npm install --legacy-peers-dep
+        run: npm install --legacy-peer-deps
       - name: Build
         run: npm run build
       - name: Setup Pages
