@@ -1,6 +1,8 @@
 //Seccion de inicio con nombre y typewriter
 import TypewriterComponent from "typewriter-effect";
 import { SlArrowDown } from "react-icons/sl";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
 import FadeOnView from "./FadeOnView";
 
 const roles = [
@@ -52,11 +54,41 @@ const Home = () => {
             }}
           />
         </div>
-      </FadeOnView>
+      
+      <div className="flex flex-row justify-center mt-10">
+        <a
+          href="
+          https://www.github.com/artuencina"
+          target="_blank"
+          rel="noreferrer"
+          className="mx-2"
+        >
+          <AiFillGithub className="text-4xl text-white hover:scale-110 transition duration-300 ease-in-out" />
+        </a>
+        
+        <a
+          href="
+          https://www.linkedin.com/in/artwoencina/"
+          target="_blank"
+          rel="noreferrer"
+          className="mx-2"
+        >
+          <FaLinkedin className="text-4xl text-white hover:scale-110 transition duration-300 ease-in-out" />
+        </a>
 
-      <div className="flex flex-row mt-10">
-        {/*Aqui van los iconos de redes sociales: github, linkedin, instagram*/}
+        <a
+          href="
+          https://www.instagram.com/artwoencina/"
+          target="_blank"
+          rel="noreferrer"
+          className="mx-2"
+        >
+          <AiFillInstagram className="text-4xl text-white hover:scale-110 transition duration-300 ease-in-out" />
+        </a>
+
+
       </div>
+      </FadeOnView>
 
       <div className="absolute top-[75%] justify-center">
         <div className="cursor-pointer" onClick={handleScroll}>
